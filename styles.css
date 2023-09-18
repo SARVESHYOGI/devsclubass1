@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+body{
+    color: white;
+    background-color: black;
+}
+nav{
+    display: flex;
+    margin-top: 20px;
+}
+.navright{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    justify-items: center;
+    align-items: center;
+}
+.navleft{
+    display: flex;
+    width: 45%;
+    justify-content: center;
+    font-size: 2rem;
+    align-items: center;
+}
+#github{
+    width: 50px;
+    cursor: pointer;
+}
+#linkdin{
+    filter: invert(100%);
+    cursor: pointer;
+    width: 50px;
+}
+#resume{
+    font-size: 2rem;
+}
+
+section{
+    width: 70%;
+    margin:100px 20%;
+    display: flex;
+}
+.leftsection{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    font-size: 3.2rem
+}
+.rightsection>img{
+    width: 35%;
+    
+}
+.rightsection{
+    display: flex;
+    justify-content: center;
+justify-items: center;
+margin: auto;
+}
+#bot{
+    filter: invert(100%);
+}
+
+span{
+    animation: color 15s infinite    ;
+}
+
+@keyframes color{
+0%{
+    color: white;
+}
+/* 5%{
+    color: aqua;
+} */
+10%{
+    color: rgb(255, 255, 153);
+}
+/* 15%{
+    color: blue;
+} */
+20%{
+    color: rgb(249, 237, 22);
+}
+/* 25%{
+    color: cyan;
+} */
+30%{
+    color: rgb(162, 211, 38);
+}
+/* 35%{
+    color: gold;
+} */
+40%{
+    color: green;
+}
+/* 45%{
+    color: indigo;
+} */
+50%{
+    color: rgb(12, 206, 209);
+}
+/* 55%{
+    color: lavender;
+} */
+60%{
+    color: rgb(38, 35, 204);
+}
+/* 65%{
+    color: magenta;
+} */
+70%{
+    color: rgb(128, 0, 96);
+}
+/* 75%{
+    color: navy;
+} */
+80%{
+    color: rgb(128, 0, 13);
+}
+/* 85%{
+    color: orange;
+} */
+90%{
+    color: rgb(48, 151, 220);
+}
+/* 95%{
+    color: purple;
+} */
+100%{
+    color: rgb(141, 250, 111);
+}
+
+
+
+}
+
+.footer{
+    width: 60%;
+    margin: auto;
+    font-size: 1.5rem;
+}
+.footer1{
+    width: 3%;
+    transform: rotate(180deg);
+    margin: auto;
+    margin-top: -15px;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.pro{
+    width: 3%;
+    font-weight: 900;
+    font-size: 1.5rem;
+
+    margin: auto;
+}
